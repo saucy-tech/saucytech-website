@@ -3847,3 +3847,19 @@ body.is-preload #header.alt .logo {
     max-width: 100%;
   }
 }
+
+.fa-icon-link a {
+  text-decoration: none; /* Remove underline from the link */
+  display: inline-flex; /* Use flexbox to align icon and image horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.fa-icon-link i {
+  font-size: 24px; /* Adjust the font size to match your design */
+  margin-right: 10px; /* Add some spacing between the icon and image */
+}
+
+.fa-icon-link img {
+  width: 58px; /* Set the width to match the font size */
+  height: 58px; /* Set the height to match the font size */
+}
