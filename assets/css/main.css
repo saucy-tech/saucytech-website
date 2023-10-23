@@ -3863,3 +3863,11 @@ body.is-preload #header.alt .logo {
   width: 58px; /* Set the width to match the font size */
   height: 58px; /* Set the height to match the font size */
 }
+
+.project-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
