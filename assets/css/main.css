@@ -3871,3 +3871,26 @@ body.is-preload #header.alt .logo {
 .project-item:hover {
   transform: scale(1.05);
 }
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skill i {
+  margin-right: 8px;
+  font-size: 24px; /* 2xl equivalent */
+}
+
+.skill span {
+  font-weight: bold;
+}
